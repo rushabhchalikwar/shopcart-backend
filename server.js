@@ -4,6 +4,7 @@ import Cors from "cors";
 
 const app = express();
 
+const port = process.env.PORT || 3000;
 const connection_url =
   "mongodb+srv://rushabh:rushabh123@cluster0.tyzfi.mongodb.net/ecomm?retryWrites=true&w=majority";
 
